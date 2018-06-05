@@ -1,0 +1,80 @@
+<!--
+  Marc-Daniel Dialogo
+  1539756
+-->
+<!doctype html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="memoryGameStyles.css">
+    <script src="memoryGameScripts.js"></script>
+    <title>Memory Game</title>
+  </head>
+
+  <body>
+    <div id="menu">
+      <h1>Memory Game</h1>
+      <button class="gameOptions" id="newGame">New Game</button>
+      <button class="gameOptions" id="endGame">End Game</button>
+    </div>
+
+    <div id="container">
+      <section class="gameBoard" id="middleLayer">
+            <div><img class="letterA"></div>
+            <div><img class="letterB"></div>
+            <div><img class="letterC"></div>
+            <div><img class="letterD"></div>
+
+            <div><img class="letterE"></div>
+            <div><img class="letterF"></div>
+            <div><img class="letterG"></div>
+            <div><img class="letterH"></div>
+
+            <div><img class="letterI"></div>
+            <div><img class="letterJ"></div>
+            <div><img class="letterK"></div>
+            <div><img class="letterL"></div>
+
+            <div><img class="letterM"></div>
+            <div><img class="letterN"></div>
+            <div><img class="letterO"></div>
+            <div><img class="letterP"></div>
+      </section>
+
+      <section class="gameBoard" id="tileLayer">
+          <div><img class="letterA" src="images/gameTiles/doraemonGameTileA.jpg"></div>
+          <div><img class="letterB" src="images/gameTiles/doraemonGameTileB.jpg"></div>
+          <div><img class="letterC" src="images/gameTiles/doraemonGameTileC.jpg"></div>
+          <div><img class="letterD" src="images/gameTiles/doraemonGameTileD.jpg"></div>
+
+          <div><img class="letterE" src="images/gameTiles/doraemonGameTileE.jpg"></div>
+          <div><img class="letterF" src="images/gameTiles/doraemonGameTileF.jpg"></div>
+          <div><img class="letterG" src="images/gameTiles/doraemonGameTileG.jpg"></div>
+          <div><img class="letterH" src="images/gameTiles/doraemonGameTileH.jpg"></div>
+
+          <div><img class="letterI" src="images/gameTiles/doraemonGameTileI.jpg"></div>
+          <div><img class="letterJ" src="images/gameTiles/doraemonGameTileJ.jpg"></div>
+          <div><img class="letterK" src="images/gameTiles/doraemonGameTileK.jpg"></div>
+          <div><img class="letterL" src="images/gameTiles/doraemonGameTileL.jpg"></div>
+
+          <div><img class="letterM" src="images/gameTiles/doraemonGameTileM.jpg"></div>
+          <div><img class="letterN" src="images/gameTiles/doraemonGameTileN.jpg"></div>
+          <div><img class="letterO" src="images/gameTiles/doraemonGameTileO.jpg"></div>
+          <div><img class="letterP" src="images/gameTiles/doraemonGameTileP.jpg"></div>
+      </section>
+    </div>
+
+
+    <ul id="howToPlay">
+      How to play:
+      <li>
+        Click on two tiles to reveal the images beneath them.</li>
+      <li>
+        If the images match, the selected tiles disappear.</li>
+      <li>
+        If the images don't match, the selected tiles return to their original state.</li>
+      <li>
+        When all tiles have been matched with and have disappeared, the game is over.</li>
+    </ul>
+    </body>
+  </html>
